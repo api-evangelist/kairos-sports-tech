@@ -1,8 +1,28 @@
 aid: kairos-sports-tech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kairos-sports-tech.png
 name: Kairos Sports Tech
-description: Kairos Sports Tech is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Kairos Sports Tech was a Belfast and Dublin based sports technology startup
+  that built a team operations and communication platform for professional
+  sports, integrating team planning, daily communication, and player management
+  into one centralized system used by more than 100 football and rugby
+  organizations. Founded by Andrew Trimble and Gareth Quinn and backed by
+  Techstars, Kairos was acquired by Teamworks in January 2024 and its product was
+  folded into the Teamworks Hub athlete operating system. The standalone
+  kairostech.io site now redirects entirely to teamworks.com/hub/, and Kairos no
+  longer operates an independent public API, developer program, or discoverable
+  API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/kairos-sports-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +30,20 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: teamworks
+x-acquired-date: '2024-01-17'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Sports
+- Sports Technology
+- Athlete Management
+- Team Communication
+- Team Operations
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,8 @@ maintainers:
 common:
 - type: Website
   url: https://kairostech.io/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
